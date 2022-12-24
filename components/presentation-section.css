@@ -1,0 +1,163 @@
+.presentation-section {
+    width: 100%;
+    height: 980px;
+    background-color: var(--modern-color);
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title.-presentation {
+    padding-top: 300px;
+    margin-bottom: 30px;
+    padding-left: 140px;
+    color: var(--second-color);
+}
+
+.main-paragraph.-presentation {
+    color: var(--second-color);
+    font-size: 20px;
+    padding-left: 140px;
+    margin-bottom: 100px;
+}
+
+.main-link.-presentation {
+    color: var(--second-color);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    margin-left: 140px;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+.main-link.-presentation:hover {
+    font-size: 55px;
+    transition: all 0.2s;
+}
+
+.main-link-presentation {
+    display: flex;
+    align-items: center;
+}
+
+.perfil-figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-img {
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+}
+
+@media screen and ( max-width: 1000px ) {
+    .main-title.-presentation {
+        font-size: 70px;
+        padding-left: 100px;
+    }
+    .main-paragraph.-presentation {
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    .main-link.-presentation {
+        font-size: 50px;
+        margin-left: 100px;
+        margin-bottom: 0px;
+        transition: all 0.2s;
+    }
+    .main-link.-presentation:hover {
+        font-size: 55px;
+        transition: all 0.2s;
+    }
+    .perfil-img {
+        width: 550px;
+        height: 500px;
+        transition: all 0.5s;
+    }
+}
+
+@media screen and ( max-width: 750px ) {
+    .main-title.-presentation {
+        font-size: 70px;
+        padding-left: 30px;
+    }
+    .main-paragraph.-presentation {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .main-link.-presentation {
+        font-size: 40px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        transition: all 0.2s;
+    }
+    .main-link.-presentation:hover {
+        font-size: 45px;
+        transition: all 0.2s;
+    }
+    .perfil-img {
+        width: 400px;
+        height: 350px;
+        transition: all 0.5s;
+    }
+}
+
+@media screen and ( max-width:565px ) {
+    .main-title.-presentation {
+        font-size: 50px;
+        padding-left: 30px;
+    }
+    .main-paragraph.-presentation {
+        font: 20px;
+        padding-left: 30px;
+    }
+    .main-link.-presentation {
+        font-size: 30px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        transition: all 0.2s;
+    }
+    .main-link.-presentation:hover {
+        font-size: 35px;
+        transition: all 0.2s;
+    }
+    .perfil-img {
+        width: 400px;
+        height: 350px;
+        transition: all 0.5s;
+    }
+}
+
+@media screen and ( max-width: 500px ) {
+    /*Media querry smartphone*/
+    .main-title.-presentation {
+        font-size: 22px;
+        padding-left: 30px;
+    }
+    .main-paragraph.-presentation {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    .main-link.-presentation {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        transition: all 0.2s;
+    }
+    .main-link.-presentation:hover {
+        font-size: 25px;
+        transition: all 0.2s;
+    }
+    .perfil-img {
+        width: 400px;
+        height: 250px;
+        transition: all 0.5s;
+    }
+}

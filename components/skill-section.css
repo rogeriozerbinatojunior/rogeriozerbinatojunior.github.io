@@ -1,0 +1,124 @@
+.skill-section {
+    width: 100%;
+    height:  750px;
+}
+
+.container-skills {
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card-skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 250px;
+    background-color: var(--modern-color);
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px 5px var(--white-modern-color);
+}
+
+.percent {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(270deg);
+}
+
+.main-circle{
+    fill: transparent;
+    width: 150px;
+    stroke-width: 2;
+    stroke: var(--main-circle-color);
+    transform: translate(5px, 5px);
+}
+
+.main-circle:nth-child(2) {
+    stroke: var(--color-circle-html);
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * var(--num) / 100));
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 1.8s;
+}
+
+@keyframes fadeIn {
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes animateDot {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(calc(3.6deg * var(--num)));
+    }
+}
+
+.dot-main-circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+    animation: animateDot 2s linear forwards;
+}
+
+.dot-main-circle::before {
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--color-circle-html);
+    box-shadow: 0px 0px 8px var(--color-circle-html), 0px 0px 30px var(--color-circle-html);
+}
+
+.number-dot.-html {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 1s linear forwards;
+    animation-delay: 1.8s;
+}
+
+.main-title.-skills {
+    font-size: 35px;
+    color: var(--white-modern-color);
+}
+
+.span-skills {
+    font-size: 26px;
+}
+
+.main-paragraph.-skills {
+    font-size: 20px ;
+    color: var(--white-modern-color);
+}

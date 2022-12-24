@@ -1,0 +1,44 @@
+#main-section {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.container-main-section {
+    width: 90%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.main-title.-about-me {
+    color: var(--first-color);
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main-img {
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.main-paragraph.-school {
+    width: 800px;
+    padding-top: 170px;
+    padding-left: 149px;
+}
+
+.container-main-section.-second {
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-img.-second {
+    width: 800px;
+    padding-top: 0px;
+}
+
+.main-paragraph.-second {
+    padding-top: 45px;
+    padding-left: 149px;
+    width: 800px;
+}

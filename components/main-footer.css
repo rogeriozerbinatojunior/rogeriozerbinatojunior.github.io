@@ -1,0 +1,31 @@
+.main-footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--footer-color);
+}
+
+.main-navigation {
+    padding-top: 40px;
+    float: right;
+    width: 21.5%;
+}
+
+.container-footer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    color:  var(--second-color);
+    font-size:  35px;
+    margin-right: 15px;
+}
+
+.main-paragraph.-footer {
+    color: var(--second-color);
+    font-size: 23px;
+}
