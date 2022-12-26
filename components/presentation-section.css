@@ -6,11 +6,6 @@
     justify-content: space-around;
 }
 
-.container-presentation {
-    display: flex;
-    flex-direction: column;
-}
-
 .main-title.-presentation {
     padding-top: 300px;
     margin-bottom: 30px;
@@ -26,6 +21,8 @@
 }
 
 .main-link.-presentation {
+    display: flex;
+    align-items: center;
     color: var(--second-color);
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
@@ -38,11 +35,6 @@
 .main-link.-presentation:hover {
     font-size: 55px;
     transition: all 0.2s;
-}
-
-.main-link-presentation {
-    display: flex;
-    align-items: center;
 }
 
 .perfil-figure {
