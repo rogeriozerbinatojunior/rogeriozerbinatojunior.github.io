@@ -141,12 +141,21 @@
         font-size: 20px;
         margin-left: 30px;
         margin-bottom: 0px;
-        transition: all 0.2s;
+        animation: main-link 1.2s infinite alternate;
+        
     }
-    .main-link.-presentation:hover {
-        font-size: 25px;
-        transition: all 0.2s;
+    
+    @keyframes main-link {
+        0%
+        {
+            font-size: 20px;
+        }
+        100%
+        {
+            font-size: 25px;
+        }
     }
+
     .perfil-img {
         width: 400px;
         height: 250px;
