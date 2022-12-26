@@ -3,19 +3,21 @@
     margin-bottom: 100px;
 }
 
+.main-title.-about-me {
+    color: var(--first-color);
+    padding-top: 100px;
+    text-align: center;
+}
+/*começa primeiro container*/
 .container-main-section {
     width: 90%;
     display: flex;
     margin-bottom: 20px;
 }
 
-.main-title.-about-me {
-    color: var(--first-color);
-    padding-top: 100px;
-    text-align: center;
-}
 
 .main-img {
+    width: ;;
     padding-top: 50px;
     padding-left: 150px;
 }
@@ -26,6 +28,7 @@
     padding-left: 149px;
 }
 
+/*começa segundo container*/
 .container-main-section.-second {
     width: 90%;
     display: flex;
@@ -41,4 +44,19 @@
     padding-top: 45px;
     padding-left: 149px;
     width: 800px;
+}
+
+@media screen and ( max-witdh: 1000px ) {
+}
+
+@media screen and ( max-witdh: 760px ) {
+    
+}
+
+@media screen and ( max-width:565px ) {
+    
+}
+
+@media screen and ( max-witdh: 500px ) {
+    
 }
