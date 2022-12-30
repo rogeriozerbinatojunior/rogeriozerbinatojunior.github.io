@@ -97,14 +97,56 @@
     .main-img.-second {
         width: 450px;
         height: 350px;
+        margin-right: 0px;
     }
 
     .main-paragraph.-school {
+        width: 50%;
         margin-top: 100px;
-        font-size: 25px;
+        font-size: 20px;
+        
     }
     .main-paragraph.-second {
+        width: 50%;
         margin-top: 0px;
-        font-size: 25px;
+        font-size: 20px;
+        text-align: right;
+    }
+}
+
+@media screen and ( max-width: 500px ) {
+    .main-title.-about-me {
+        font-size: 55px;
+    }
+
+    .container-main-section {
+        margin-bottom: 25px;
+    }
+
+    .main-img {
+        width: 250px;
+        height: 250px;
+        margin-right: 20px;
+    }
+    .main-img.-second {
+        width: 250px;
+        height: 250px;
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+
+    .main-paragraph.-school {
+        width: 50%;
+        margin-top: 100px;
+        margin-left: 20px;
+        font-size: 18px;
+        
+    }
+    .main-paragraph.-second {
+        width: 50%;
+        margin-top: 0px;
+        margin-right: 20px;
+        font-size: 18px;
+        text-align: right;
     }
 }
