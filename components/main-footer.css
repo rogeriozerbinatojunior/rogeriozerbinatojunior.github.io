@@ -9,7 +9,7 @@
 .main-navigation {
     padding-top: 40px;
     float: right;
-    width: 21.5%;
+    
 }
 
 .container-footer {
@@ -28,4 +28,42 @@
 .main-paragraph.-footer {
     color: var(--second-color);
     font-size: 23px;
+    margin-top: 33px;
+}
+
+@media screen and ( max-width: 890px ) {
+    .container-footer {
+        width: 80%;
+    }
+}
+
+@media screen and ( max-width: 660px ) {
+    .container-footer {
+        width: 90%;
+    }
+    .main-paragraph.-footer {
+        font-size: 20px;
+    }
+    .fa-brands {
+        font-size: 32px;
+    }
+}
+
+@media screen and ( max-width: 530px ) {
+    .container-footer {
+        width: 96%;
+    }
+}
+
+@media screen and ( max-width: 500px ) {
+    .container-footer {
+        width: 90%;
+    }
+    .main-paragraph.-footer {
+        font-size: 18px;
+    }
+    .fa-brands {
+        font-size: 29px;
+        margin-right: 13px;
+    }
 }
