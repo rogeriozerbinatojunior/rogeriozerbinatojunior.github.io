@@ -12,17 +12,24 @@
 }
 
 .container-projects {
-    width: 825px;
-    height: 250px;
+    width: 835px;
+    height: 260px;
     display: flex;
     justify-content: center;    
-    border: 2px solid var(--white-modern-color);
+    border-bottom: 2px solid var(--white-modern-color);
 }
 
 .img-projects {
     width: 250px;
     height: 250px;
     margin-right: 25px;
+    transition: all 0.3s;
+}
+
+.img-projects:hover {
+    transition: all 0.3s;
+    width: 260px;
+    height: 260px;
 }
 
 .arrow-down {
