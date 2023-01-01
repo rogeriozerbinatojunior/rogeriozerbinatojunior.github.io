@@ -1,6 +1,6 @@
 .presentation-section {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: var(--modern-color);
     display: flex;
     justify-content: space-around;
