@@ -67,3 +67,9 @@
         margin-right: 13px;
     }
 }
+
+@media screen and ( max-width: 476px ) {
+    .main-paragraph.-footer {
+        font-size: 16px;
+    }
+}
