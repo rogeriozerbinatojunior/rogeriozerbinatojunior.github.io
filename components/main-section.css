@@ -149,3 +149,15 @@
         text-align: right;
     }
 }
+
+@media screen and ( max-width: 414px ) {
+    .main-paragraph.-school {
+        font-size: 16px;
+    }
+    .main-paragraph.-second {
+        font-size: 16px;
+    }
+    .main-img.-second {
+        width: 220px;
+    }
+}
